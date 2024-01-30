@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+.icons{
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: end;
+}
+
+.search{
+    display: inline-flex;
+    align-items: center;
+}
