@@ -7,10 +7,12 @@ module.exports = {
         brand: ['Bai Jamjuree']
       },
       animation: {
-        slider : 'slider 4s infinite'
+        sliderX : 'sliderX 4s infinite',
+        sliderY : 'slider 4s infinite'
+
       },
       keyframes:{
-        slider : {
+        sliderX : {
           '0%' : {
             transform : "translateX(0px)",
           },
@@ -25,6 +27,23 @@ module.exports = {
           },
           '100%' : {
             transform : "translateX(0px)",
+          }
+        },
+        sliderY : {
+          '0%' : {
+            transform : "translateY(0px)",
+          },
+          '25%' : {
+            transform : "translateY(-250px)",
+          },
+          '50%' : {
+            transform : "translateY(-400px)",
+          },
+          '75%' : {
+            transform : "translateY(-250px)",
+          },
+          '100%' : {
+            transform : "translateY(0px)",
           }
         }
       }
