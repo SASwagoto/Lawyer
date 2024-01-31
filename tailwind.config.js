@@ -34,13 +34,13 @@ module.exports = {
             transform : "translateY(0px)",
           },
           '25%' : {
-            transform : "translateY(-250px)",
+            transform : "translateY(250px)",
           },
           '50%' : {
-            transform : "translateY(-400px)",
+            transform : "translateY(400px)",
           },
           '75%' : {
-            transform : "translateY(-250px)",
+            transform : "translateY(250px)",
           },
           '100%' : {
             transform : "translateY(0px)",
