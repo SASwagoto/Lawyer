@@ -9,7 +9,6 @@ module.exports = {
       animation: {
         sliderX : 'sliderX 4s infinite',
         sliderY : 'slider 4s infinite'
-
       },
       keyframes:{
         sliderX : {
